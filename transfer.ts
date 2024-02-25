@@ -8,6 +8,7 @@ import {
   import "dotenv/config"
   import { getKeypairFromEnvironment } from "@solana-developers/helpers";
   
+  // eg. npx esrun transfer.ts 31ZdXAvhRQyzLC2L97PC6Lnf2yWgHhQUKKYoUo9MLQF5
   const suppliedToPubkey = process.argv[2] || null;
   
   if (!suppliedToPubkey) {
